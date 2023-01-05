@@ -1,0 +1,101 @@
+%nasi
+nasi_uduk = 1;
+nasi_kuning = 2;
+nasi_putih = 3;
+%lauk utama
+ayam_goreng = 4;
+ayam_panggang = 5;
+ayam_goreng_kecap = 6;
+udang_goreng = 7;
+mie_goreng = 8;
+telur_dadar = 9;
+telur_ceplok = 10;
+tempe_bacem = 11;
+tempe_goreng = 12;
+tempe_orek = 13;
+tahu_bacem = 14;
+telur_asin = 15;
+ati_ayam_goreng = 16;
+ikan_lele_goreng = 17;
+ikan_teri = 18;
+ikan_bandeng_goreng = 19;
+%sayuran
+tumis_buncis = 20;
+sop_bayam = 21;
+kangkung = 22;
+bayam_bening = 23;
+tumis_kacang_panjang = 24;
+cah_toge = 25;
+sayur_lodeh = 26;
+cah_labu_siam = 27;
+sayur_asam = 28;
+acar = 29;
+%buah
+Semangka = 30;
+Nanas = 31;
+Mangga = 32;
+Anggur = 33;
+Pisang = 34;
+Jeruk = 35;
+Apel = 36;
+Strawberry = 37;
+Alpukat = 38;
+Buah_Naga = 39;
+Salak = 40;
+Manggis = 41;
+Rambutan = 42;
+
+% declare the calories and cost (rupiah)
+cal = array2d(1..42, 1..2,
+[
+%colories  cost (rupiah)
+476,      5000,
+150,      5000,
+130,      4000,
+
+386,      10000,
+246,      10000,
+359,      10000,
+244,      5000,
+321,      12000,
+188,      12000,
+92,       15000,
+157,      5000,
+118,      5000,
+192,      1000,
+147,      3000,
+138,      3000,
+98,       6000,
+57,       10000,
+213,      4000,
+181,      7000,
+
+52,       4000,
+78,       4000,
+106,      4000,
+15,       4000,
+118,      4000,
+38,       4000,
+59,       4000,
+42,       5000,
+88,       5000,
+53,       4000,
+
+31,       1000,
+50,       1000,
+60,       3000,
+67,       3000,
+89,       2000,
+47,       2500,
+52,       3500,
+32,       5000,
+160,      3500,
+50,       3000,
+77,       1500,
+73,       2850,
+70,       1500,
+]);
+
+% user input maximum sum of calories and cost
+max_calories=1400;
+max_cost=20000;
