@@ -1,3 +1,7 @@
+# requirements pada aplikasi ini membutuhkan penginstalan
+# 1. Aplikasi minizinc dan library minizinc (dengan menggunakan pip install minizinc)
+# 2. library flask (dengan menggunakan pip install flask)
+# 3. Extensi Python pada Visual Studio Code
 import minizinc
 from flask import Flask, render_template, request, redirect
 
