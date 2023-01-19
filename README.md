@@ -1,8 +1,8 @@
 # SPKTeam6
 Reference:
-http://www.hakank.org/minizinc/food.mzn
-http://www.hakank.org/minizinc/make_a_good_burger.mzn
-http://www.hakank.org/minizinc/dinner.mzn
+1. http://www.hakank.org/minizinc/food.mzn
+2. http://www.hakank.org/minizinc/make_a_good_burger.mzn
+3. http://www.hakank.org/minizinc/dinner.mzn
 
 Aplikasi Website dibuat melalui library flask dari python versi 3.8.x dan program minizinc versi 2.6.4.
 
